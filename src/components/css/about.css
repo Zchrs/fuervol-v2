@@ -1,0 +1,95 @@
+
+/*------------ Serction2 quienes somos dynamic content------------*/
+.sectionIndexWhoare{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    background: white;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    overflow: hidden;
+    /* transform: translate(100%); */
+    z-index: 20;
+    /* opacity: 0; */
+    animation: rightToleft .7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.whoareImg{
+    display: block;
+    position: absolute;
+    transform: skewX(10deg);
+    background: url(/src/img/nuestro-equipo.png) no-repeat -120px;
+    background-size: 100% 100%;
+    
+    width: 190%;
+    height: 100%;
+    bottom: 0;
+    opacity: 0.2;
+    border: #ADD639 1px solid;
+}
+.img-quienes-somos{
+    position: absolute;
+    display: block;
+    width: 450px;
+    height: 100%;
+    background: #3952A5;
+    transform: skewX(-10deg) translate(-75px);
+    overflow: hidden;
+    /* top: 0px; */
+    left: -20px;
+}
+.sectionIndexWhoare h1{
+    position: relative;
+    display: block;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ADD639;
+    left: 45px;
+    padding-top: 100px;
+    transform: skewX(10deg);
+}
+.sectionIndexWhoare h2{
+    position: relative;
+    display: block;
+    width: 350px;
+    left: 80px;
+    /* width: 380px; */
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    /* padding: 10px; */
+    top: 20px;
+    transform: skewX(10deg);
+    text-align: left;
+}
+.sectionIndexWhoare p{
+    position: relative;
+   /* display: block; */
+   width: 600px;
+    margin: 10%;
+    /* padding: 50px; */
+    left: 450px;
+    font-size: 18px;
+    top: 90px;
+    color: #585858;
+}
+/* #sectionIndex2:target{
+    width: 100%;
+    height: 600px;
+    opacity: 1;
+} */
+@keyframes rightToleft {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+        width: 50%;
+        /* height: 50%; */
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+        width: 100%;
+        /* height: 100%; */
+    }
+}
+/*-------- fin section2 quienes somos dynamic content-------------*/

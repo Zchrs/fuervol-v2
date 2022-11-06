@@ -1,0 +1,61 @@
+.card{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    background: #eff0f3d5;
+    border: 10px solid #acd63962;
+    background-clip: padding-box;
+    border-radius: 10px;
+    z-index: 20;
+    /* margin-left: 2%; */
+    margin: 3%;
+}
+
+.card p{
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 2%;
+    font-size: 13px;
+    color: #3b3939;
+}
+
+.card button{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 110px;
+    height: 40px;
+    background: none;
+    border: 2px solid #acd639cc;
+    background-clip: padding-box;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    color: #3952A5;
+    font-size: 18px;
+}
+.link{
+    position: relative;
+    display: block;
+    color: #3952A5;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+.card h1{
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    color: #3952A5;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-up{
+    top: -40px;
+}
