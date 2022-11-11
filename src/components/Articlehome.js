@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import Card from './Card';
-import { Link } from 'react-router-dom';
-
-import './css/articlehome.css';
 import Slider from './Slider';
 
+import './css/articlehome.css';
 
-const Asidehome = ({title, text, nameButton}) => {
+
+
+const Articlehome = ({title, text, nameButton}) => {
 
     const tittles = {
         solution: 'Una solución a la adicción',
@@ -33,11 +34,11 @@ const Asidehome = ({title, text, nameButton}) => {
                 sociedad para asegurar una juventud sana.
             </h2>
             <Card title={tittles.solution} text={tittles.pSolution} nameButton={tittles.btn_Solution} />
-            <Card className='card-up' title={tittles.donations} text={tittles.pDonations} nameButton={tittles.btn_Donations} />
+            <Card className='cardup' title={tittles.donations} text={tittles.pDonations} nameButton={tittles.btn_Donations} />
             <Card title={tittles.volunteers} text={tittles.pVolunteers} nameButton={tittles.btn_Volunteers} />
             <Slider />
         </article>
     );
 };
 
-export default Asidehome;
+export default Articlehome;

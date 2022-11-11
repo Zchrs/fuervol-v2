@@ -1,0 +1,50 @@
+.article{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 600px;
+    /* border: white 1px solid; */
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 100px;
+}
+.article::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 100px;
+    background: rgba(255, 255, 255, 0.031);
+    
+}
+.article h1{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    color: #ADD639;
+}
+.article div{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url(/src/img/logo-belmira.png) no-repeat;
+    background-size: 100%;
+    margin: 12% 6.5%;
+
+}
+
+.article div:nth-child(2){
+    background: url(/src/img/logo-ejercito.png) no-repeat;
+    background-size: 100%;
+}
+
+.article div:nth-child(3){
+    background: url(/src/img/logo-clinica.svg) no-repeat center;
+    background-size: 100%;
+}
+
+.article div:nth-child(4){
+    background: url(/src/img/logo-personal-g.png) no-repeat;
+    background-size: 100%;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
-import Articlehome from './components/Articlehome';
+import Articlehome from './Articlehome';
 
-const home = () => {
+const Home = () => {
     return (
      <div>
         <div className="App">
@@ -13,4 +13,4 @@ const home = () => {
     );
 };
 
-export default home;
+export default Home;

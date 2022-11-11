@@ -1,4 +1,5 @@
 import React, {useRef, useEffect} from 'react';
+
 // import styled from 'styled-components';
 
 import img1 from '../img/fund1.jpg';
@@ -14,13 +15,15 @@ import './css/slider.css';
 
 
 const Slider = () => {
-
+   
     const slider = useRef(null);
-    const intervalSlide = useRef(null);
+    // const intervalSlide = useRef(null);
 
     const next = () =>{
+    
          // comprobamos que el slider tenga elementos
         if(slider.current.children.length > 0){
+            // console.log('entro AL ELSE IF')
         
            //obtenemos el primer elemento del slider
             const firstElement = slider.current.children[0];
@@ -30,7 +33,7 @@ const Slider = () => {
 
             slider.current.style.transform = 'translateX(-100%)';
 
-            const transition = () =>{
+            var transition = () =>{
                 slider.current.style.transition = 'none';
                 slider.current.style.transform = 'translateX(0%)';
 
@@ -40,7 +43,9 @@ const Slider = () => {
             }
 
             slider.current.addEventListener('transitionend', transition);
+
         }
+       
     }
     const back = () =>{
         if(slider.current.children.length > 0){
@@ -59,13 +64,21 @@ const Slider = () => {
             }, 30);
 
         }
+    
     }
 
 useEffect(() => {
-    intervalSlide.current = setInterval(() => {
-        next();
-    }, 7000);
+    // if( ){
+            const intervalId = setInterval(() => {
+                // debugger;
+                    next();
+            }, 7000);
 
+            return () =>{
+                clearInterval(intervalId);
+            };
+        // }
+       
     // slider.current.addEventListener('mouseenter', () => {
     //     console.log('sobre slider')
     //     clearInterval(intervalSlide.current);
@@ -77,7 +90,9 @@ useEffect(() => {
     //         next();
     //     }, 7000);
     // });
+   
 }, []);
+
 
     return (
         <div className='main-content-slider'>

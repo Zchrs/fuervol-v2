@@ -8,6 +8,9 @@
     background-clip: padding-box;
     border-radius: 10px;
     z-index: 20;
+    
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* transform: translate(100%); */
     /* margin-left: 2%; */
     margin: 3%;
 }
@@ -28,6 +31,7 @@
     width: 110px;
     height: 40px;
     background: none;
+    
     border: 2px solid #acd639cc;
     background-clip: padding-box;
     border-radius: 5px;
@@ -44,7 +48,30 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    font-weight: 100;
     line-height: 2;
+    text-align: center;
+    font-size: 18px;
+    transition: all ease-in .3s;
+}
+.link:hover{
+    color: white;
+    text-shadow: 
+    #3952A5 1px 1px 1px, 
+    #3952A5 1px 1px 3px, 
+    #3952A5 1px 1px 2px, 
+    #3952A5 -1px -1px 1px, 
+    #3952A5 -1px -1px 2px,
+    #3952A5 -1px -1px 3px;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;
+}
+.card button:hover{
+    background: #acd639cb;
+    color: #3952A5;
+    border: 2px solid #3952A5;
+    background-clip: padding-box;
 }
 .card h1{
     position: relative;
@@ -56,6 +83,6 @@
     padding: 0;
 }
 
-.card-up{
-    top: -40px;
+.cardup{
+    margin-top: 40px;
 }

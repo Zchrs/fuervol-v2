@@ -1,8 +1,10 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
+// import { animateScroll as scroll } from "react-scroll";
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './Home';
+import Sponsors from './components/Sponsors';
+import Home from './components/Home';
 // import Articlehome from './components/Articlehome';
 
 // import logo from './logo.svg';
@@ -12,15 +14,19 @@ import Mision from './components/Mision';
 import Program from './components/Program';
 import Vision from './components/Vision';
 import Donations from './components/Donations';
+import Contact from './components/Contact';
 
 import './App.css';
+
 
 
 function App() {
   
   return (
+
     <HashRouter>
-      <Navbar />
+ 
+        <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -31,9 +37,11 @@ function App() {
           <Route path="/Donations" element={<Donations />} />
           <Route path="*" element={<h1>La página que estás buscando no existe.</h1>} />
         </Routes>
-
-      <Footer />
+        <Contact />
+        <Sponsors />
+        <Footer />
     </HashRouter>
+
   );
 }
 
