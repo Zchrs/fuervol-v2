@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { animateScroll as scroll } from "react-scroll";
+// import { animateScroll as scroll } from "react-scroll";
 // import Slider from "./components/Slider";
 // import { useRef } from 'react';
 import "./css/Navbar.css";
@@ -44,7 +44,7 @@ const Navbar = () => {
 
 
   const top = () => {
-    scroll.scrollToTop();
+    window.scrollTo(0, 0);
 };
   return (
     <header className="header" id="headers">

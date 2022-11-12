@@ -19,6 +19,8 @@ const Slider = () => {
     const slider = useRef(null);
     // const intervalSlide = useRef(null);
 
+    
+
     const next = () =>{
     
          // comprobamos que el slider tenga elementos
@@ -29,13 +31,15 @@ const Slider = () => {
             const firstElement = slider.current.children[0];
            
 
-            slider.current.style.transition = 'ease-out 1s all';
+            slider.current.style.transition = 'ease-out 1.5s all';
 
-            slider.current.style.transform = 'translateX(-100%)';
+            slider.current.style.transform = 'translateX(-100%);';
+            slider.current.style.opacity = '0';
 
             var transition = () =>{
-                slider.current.style.transition = 'none';
+                // slider.current.style.transition = 'none';
                 slider.current.style.transform = 'translateX(0%)';
+                slider.current.style.opacity = '1';
 
                 slider.current.appendChild(firstElement);
 
@@ -72,7 +76,7 @@ useEffect(() => {
             const intervalId = setInterval(() => {
                 // debugger;
                     next();
-            }, 7000);
+            }, 8000);
 
             return () =>{
                 clearInterval(intervalId);
