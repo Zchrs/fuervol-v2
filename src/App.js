@@ -35,7 +35,7 @@ function App() {
           <Route path="/Vision" element={<Vision />} />
           <Route path="/Program" element={<Program />} />
           <Route path="/Donations" element={<Donations />} />
-          <Route path="*" element={<h1>La página que estás buscando no existe.</h1>} />
+          <Route path="*" element={<Notfound404 />} />
         </Routes>
         <Contact />
         <Sponsors />

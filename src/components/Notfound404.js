@@ -3,9 +3,9 @@ import './css/404.css'
 
 const Doesnt = () => {
     return (
-        <aside>
-            
-        </aside>
+        <div className='not-found'>
+            <h1>La página que estás buscando no existe.</h1>
+        </div>
     );
 };
 
