@@ -48,7 +48,9 @@ const Navbar = () => {
 };
   return (
     <header className="header" id="headers">
-      <div className="logo"></div>
+      <Link className="logo" onClick={top} to="/">
+      
+      </Link>
       <nav>
         <ul>
           <li onClick={top}>

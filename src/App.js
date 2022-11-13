@@ -17,11 +17,12 @@ import Donations from './components/Donations';
 import Contact from './components/Contact';
 
 import './App.css';
+import Notfound404 from './components/Notfound404';
+import { Payments, Paymentbtc, Paymenteth, Paymentusdt, Paymentqr} from './components/Payments';
 
 
+function App({tittleP, tittleS, qrImg, text}) {
 
-function App() {
-  
   return (
 
     <HashRouter>
@@ -34,7 +35,18 @@ function App() {
           <Route path="/Mision" element={<Mision />} />
           <Route path="/Vision" element={<Vision />} />
           <Route path="/Program" element={<Program />} />
-          <Route path="/Donations" element={<Donations />} />
+
+          <Route path="/Donations" element={<Donations />} >
+            <Route path=":Payments/btc" element={<Paymentbtc />} />
+            <Route path=":Payments/Eth" element={<Paymenteth />} />
+
+              <Route path=":Payments/Usdt" element={<Paymentusdt />} >
+                <Route path=":Send-network-trx" element={<Paymentqr />} />
+              </Route>
+
+            <Route path=":Payments/Paypal" element={<Payments />} />
+          </Route>
+
           <Route path="*" element={<Notfound404 />} />
         </Routes>
         <Contact />

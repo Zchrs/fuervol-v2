@@ -24,7 +24,7 @@ const footer = () => {
             <li><a href="/">Misión</a></li>
             <li><a href="/">Visión</a></li>
             <li><a href="/">Donar</a></li>
-            <li><a href="/">Documentación legal (Pronto)</a></li>
+            <li><a href="/">Documentación legal (en modificaciones)</a></li>
             <li><a href="/">Fuervol Shop (Pronto)</a></li>
             <li><a href="/">Preguntas frecuentes</a></li>
             <li><a href="/" className='privacy_btn'>Política de privacidad</a></li>
