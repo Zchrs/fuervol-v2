@@ -1,0 +1,8 @@
+.paypal_btn{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 200px;
+    /* border: black 1px solid; */
+    height: 50px;
+}

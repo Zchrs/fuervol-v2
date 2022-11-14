@@ -20,7 +20,7 @@ const Navbar = () => {
         "box-shadow: #acd63967 1px 2px 5px; backdrop-filter: blur(20px); background: #3b3d3493; transition: ease .8s;";
     } else {
       headers.style.cssText =
-        "box-shadow: #acd63967 0px 0px 0px; backdrop-filter: blur(20px); background: #3b3d3493; transition: ease .8s;";
+        "box-shadow: #acd63967 0px 0px 0px; backdrop-filter: blur(20px); background: #3b3d34; transition: ease .8s;";
     }
   });
 

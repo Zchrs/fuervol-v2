@@ -5,7 +5,9 @@ import Slider from './Slider';
 
 import './css/articlehome.css';
 
-
+const top = () => {
+    window.scrollTo(0, 0);
+};
 
 const Articlehome = ({title, text, nameButton}) => {
 
@@ -18,8 +20,8 @@ const Articlehome = ({title, text, nameButton}) => {
         pDonations: 'Gracias a tu apoyo, miles de jóvenes y adultos pueden y podrán recuperar sus vidas, haz clic en el botón "ayúdanos" para donar',
         pVolunteers: 'Conviértete en uno de nuestros voluntarios y ayúdanos a ayudar a quienes más lo necesitan y a construír un mundo mejor.',
 
-        btn_Solution: <Link className='link' to={'/Program'}>Saber más</Link>,
-        btn_Donations: <Link className='link' to={'/Donations'}>Ayúdanos</Link>,
+        btn_Solution: <Link onClick={top} className='link' to={'/Program'}>Saber más</Link>,
+        btn_Donations: <Link onClick={top} className='link' to={'/Donations'}>Ayúdanos</Link>,
         btn_Volunteers: 'Voluntarios',
     }
 
@@ -33,9 +35,19 @@ const Articlehome = ({title, text, nameButton}) => {
                 sus familias, como una forma de contribuir en el desarrollo de la
                 sociedad para asegurar una juventud sana.
             </h2>
-            <Card title={tittles.solution} text={tittles.pSolution} nameButton={tittles.btn_Solution} />
-            <Card className='cardup' title={tittles.donations} text={tittles.pDonations} nameButton={tittles.btn_Donations} />
-            <Card title={tittles.volunteers} text={tittles.pVolunteers} nameButton={tittles.btn_Volunteers} />
+            <Card 
+            title={tittles.solution} 
+            text={tittles.pSolution} 
+            nameButton={tittles.btn_Solution} />
+            <Card 
+            className='cardup' 
+            title={tittles.donations} 
+            text={tittles.pDonations} 
+            nameButton={tittles.btn_Donations} />
+            <Card 
+            title={tittles.volunteers} 
+            text={tittles.pVolunteers} 
+            nameButton={tittles.btn_Volunteers} />
             <Slider />
         </article>
     );

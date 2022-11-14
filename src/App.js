@@ -18,7 +18,7 @@ import Contact from './components/Contact';
 
 import './App.css';
 import Notfound404 from './components/Notfound404';
-import { Payments, Paymentbtc, Paymenteth, Paymentusdt, Paymentqr} from './components/Payments';
+import { Paymentbtc, Paymenteth, Paymentusdt, Paymentqrusdt, Paymentqrusdtbsc, Paymentqrusdterc, Paymentpaypal} from './components/Payments';
 
 
 function App({tittleP, tittleS, qrImg, text}) {
@@ -41,10 +41,12 @@ function App({tittleP, tittleS, qrImg, text}) {
             <Route path=":Payments/Eth" element={<Paymenteth />} />
 
               <Route path=":Payments/Usdt" element={<Paymentusdt />} >
-                <Route path=":Send-network-trx" element={<Paymentqr />} />
+                <Route path=":Send-Usdt-network-TRX" element={<Paymentqrusdt />} />
+                <Route path=":Send-Usdt-network-BSC"  element={<Paymentqrusdtbsc />} /> 
+                <Route path=":Send-Usdt-network-ETH"  element={<Paymentqrusdterc />} />
               </Route>
 
-            <Route path=":Payments/Paypal" element={<Payments />} />
+            <Route path=":Payments/Pay-to-paypal" element={<Paymentpaypal />} />
           </Route>
 
           <Route path="*" element={<Notfound404 />} />
