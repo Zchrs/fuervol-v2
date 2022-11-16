@@ -4,7 +4,9 @@
 .App {
   font-family: 'Titillium Web', sans-serif;
 }
-
+a{
+  text-decoration: none;
+}
 html{
   margin: 0;
   padding: 0;

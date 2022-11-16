@@ -1,4 +1,863 @@
-/*------------ article ----------------*/
+@media (min-width: 360px) and (max-height: 740px){
+    /*------------ article ----------------*/
+
+aside{
+    
+    position: relative;
+    display: block;
+    background: #3b3d34;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 1100px;
+    /* border: #ADD639 1px solid; */
+   
+}
+aside h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #ADD639;
+    font-weight: 300;
+}
+aside Input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    border: #ADD639 1px solid;
+    font-size: 16px;
+    padding-left: 20px;
+}
+aside label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    margin-left: 6%;
+    color: #eff0f3;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.contain-buttons{
+    position: relative;
+    margin: auto;
+    /* border: #ADD639 1px solid; */
+    width: 160px;
+    top: 30px;
+}
+button{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #acd639a5;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 0;
+    top: 0px;
+    transition: all ease-in .3s;
+    cursor: pointer;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; */
+    width: 80px;
+    height: 30px;
+    
+}
+.button2{
+
+    top: 0px;
+    line-height: 0;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #bb0b0ba5;
+    color: white;
+}
+.button2:hover{
+    background: red;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+.button:hover{
+    background: green;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+
+aside label:nth-child(11){
+    position: relative;
+    display: block;
+    margin-left: 17.2%;
+    top: 60px;
+}
+aside textarea{
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    width: 60%;
+    height: 200px;
+    margin-top: 60px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.articleFooter{
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.16);
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+.articleFooter ul{
+    width: 100%;
+    /* border: #3952A5 1px solid; */
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.articleFooter li{
+    position: relative;
+    display: inline-block;
+    /* border: #ADD639 1px solid; */
+    margin-left: 1px;
+    padding: 0;
+    text-align: right;
+    color: whitesmoke;
+    width: 170px;
+    height: 45px;
+    line-height: 3;
+    background: url(/src/img/whatsapp-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0 5px;
+}
+
+.articleFooter li:last-child{
+    background: url(/src/img/telefono-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0px 5px;
+}
+.contactIcons{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 74%;
+    height: auto;
+    top: 10px;
+    /* border: #ADD639 1px solid; */
+}
+.contactIcons ul{
+    list-style: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+.contactIcons li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.contactIcons li{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) brightness(200%);
+    background: url(/src/img/ubicacion2.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(2){
+    background: url(/src/img/correo.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(3){
+    background: url(/src/img/telefono.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(4){
+    background: url(/src/img/talk.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactLines{
+    position: relative;
+    z-index: 20;
+    top: 0px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.emails{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 179px;
+    /* border: #ADD639 1px solid; */
+    color: #696b67;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+}
+/*------------ fin article ------------*/
+}
+
+@media (min-width: 375px) and (max-height: 812px){
+    /*------------ article ----------------*/
+
+aside{
+    
+    position: relative;
+    display: block;
+    background: #3b3d34;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 1100px;
+    /* border: #ADD639 1px solid; */
+   
+}
+aside h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #ADD639;
+    font-weight: 300;
+}
+aside Input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    border: #ADD639 1px solid;
+    font-size: 16px;
+    padding-left: 20px;
+}
+aside label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    margin-left: 6%;
+    color: #eff0f3;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.contain-buttons{
+    position: relative;
+    margin: auto;
+    /* border: #ADD639 1px solid; */
+    width: 160px;
+    top: 30px;
+}
+button{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #acd639a5;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 0;
+    top: 0px;
+    transition: all ease-in .3s;
+    cursor: pointer;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; */
+    width: 80px;
+    height: 30px;
+    
+}
+.button2{
+
+    top: 0px;
+    line-height: 0;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #bb0b0ba5;
+    color: white;
+}
+.button2:hover{
+    background: red;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+.button:hover{
+    background: green;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+
+aside label:nth-child(11){
+    position: relative;
+    display: block;
+    margin-left: 17.2%;
+    top: 60px;
+}
+aside textarea{
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    width: 60%;
+    height: 200px;
+    margin-top: 60px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.articleFooter{
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.16);
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+.articleFooter ul{
+    width: 100%;
+    /* border: #3952A5 1px solid; */
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.articleFooter li{
+    position: relative;
+    display: inline-block;
+    /* border: #ADD639 1px solid; */
+    margin-left: 1px;
+    padding: 0;
+    text-align: right;
+    color: whitesmoke;
+    width: 170px;
+    height: 45px;
+    line-height: 3;
+    background: url(/src/img/whatsapp-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0 5px;
+}
+
+.articleFooter li:last-child{
+    background: url(/src/img/telefono-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0px 5px;
+}
+.contactIcons{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 74%;
+    height: auto;
+    top: 10px;
+    /* border: #ADD639 1px solid; */
+}
+.contactIcons ul{
+    list-style: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+.contactIcons li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.contactIcons li{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) brightness(200%);
+    background: url(/src/img/ubicacion2.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(2){
+    background: url(/src/img/correo.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(3){
+    background: url(/src/img/telefono.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(4){
+    background: url(/src/img/talk.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactLines{
+    position: relative;
+    z-index: 20;
+    top: 0px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.emails{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 179px;
+    /* border: #ADD639 1px solid; */
+    color: #696b67;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+}
+/*------------ fin article ------------*/
+}
+
+@media (min-width: 412px) and (max-height: 915px){
+    /*------------ article ----------------*/
+
+aside{
+    
+    position: relative;
+    display: block;
+    background: #3b3d34;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 1100px;
+    /* border: #ADD639 1px solid; */
+   
+}
+aside h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #ADD639;
+    font-weight: 300;
+}
+aside Input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    border: #ADD639 1px solid;
+    font-size: 16px;
+    padding-left: 20px;
+}
+aside label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    margin-left: 6%;
+    color: #eff0f3;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.contain-buttons{
+    position: relative;
+    margin: auto;
+    /* border: #ADD639 1px solid; */
+    width: 160px;
+    top: 30px;
+}
+button{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #acd639a5;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 0;
+    top: 0px;
+    transition: all ease-in .3s;
+    cursor: pointer;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; */
+    width: 80px;
+    height: 30px;
+    
+}
+.button2{
+
+    top: 0px;
+    line-height: 0;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #bb0b0ba5;
+    color: white;
+}
+.button2:hover{
+    background: red;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+.button:hover{
+    background: green;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+
+aside label:nth-child(11){
+    position: relative;
+    display: block;
+    margin-left: 17.2%;
+    top: 60px;
+}
+aside textarea{
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    width: 60%;
+    height: 200px;
+    margin-top: 60px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.articleFooter{
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.16);
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+.articleFooter ul{
+    width: 100%;
+    /* border: #3952A5 1px solid; */
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.articleFooter li{
+    position: relative;
+    display: inline-block;
+    /* border: #ADD639 1px solid; */
+    margin-left: 1px;
+    padding: 0;
+    text-align: right;
+    color: whitesmoke;
+    width: 170px;
+    height: 45px;
+    line-height: 3;
+    background: url(/src/img/whatsapp-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0 5px;
+}
+
+.articleFooter li:last-child{
+    background: url(/src/img/telefono-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0px 5px;
+}
+.contactIcons{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 74%;
+    height: auto;
+    top: 10px;
+    /* border: #ADD639 1px solid; */
+}
+.contactIcons ul{
+    list-style: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+.contactIcons li{
+    display: inline-block;
+    margin-left: 18px;
+}
+.contactIcons li{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) brightness(200%);
+    background: url(/src/img/ubicacion2.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(2){
+    background: url(/src/img/correo.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(3){
+    background: url(/src/img/telefono.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(4){
+    background: url(/src/img/talk.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactLines{
+    position: relative;
+    z-index: 20;
+    top: 0px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.emails{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 179px;
+    /* border: #ADD639 1px solid; */
+    color: #696b67;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+}
+/*------------ fin article ------------*/
+}
+
+@media (min-width: 1024px) and (max-height: 800px){
+    /*------------ article ----------------*/
+#articleIndex{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border: #3952A5 1px solid; */
+}
+aside{
+    margin-top: 100px;
+    position: relative;
+    display: block;
+    background: #3b3d34;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 1100px;
+    /* border: #ADD639 1px solid; */
+   
+}
+aside h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #ADD639;
+    font-weight: 300;
+}
+aside Input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    border: #ADD639 1px solid;
+    font-size: 16px;
+    padding-left: 20px;
+}
+aside label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    margin-left: 24%;
+    color: #eff0f3;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.contain-buttons{
+    position: relative;
+    margin: auto;
+    /* border: #ADD639 1px solid; */
+    width: 160px;
+    top: 30px;
+}
+button{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #acd639a5;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 0;
+    top: 0px;
+    transition: all ease-in .3s;
+    cursor: pointer;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; */
+    width: 80px;
+    height: 30px;
+    
+}
+.button2{
+
+    top: 0px;
+    line-height: 0;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #bb0b0ba5;
+    color: white;
+}
+.button2:hover{
+    background: red;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+.button:hover{
+    background: green;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+
+aside label:nth-child(11){
+    position: relative;
+    display: block;
+    margin-left: 34.2%;
+    top: 80px;
+}
+aside textarea{
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    width: 30%;
+    height: 200px;
+    margin-top: 80px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.articleFooter{
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.16);
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+.articleFooter ul{
+    width: 450px;
+    /* border: #3952A5 1px solid; */
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.articleFooter li{
+    position: relative;
+    display: inline-block;
+    /* border: #ADD639 1px solid; */
+    margin-left: 30px;
+    padding: 0;
+    text-align: right;
+    color: whitesmoke;
+    width: 170px;
+    height: 45px;
+    line-height: 3;
+    background: url(/src/img/whatsapp-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0 5px;
+}
+
+.articleFooter li:last-child{
+    background: url(/src/img/telefono-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0px 5px;
+}
+.contactIcons{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 25%;
+    height: auto;
+    top: 10px;
+    /* border: #ADD639 1px solid; */
+}
+.contactIcons ul{
+    list-style: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+.contactIcons li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.contactIcons li{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) brightness(200%);
+    background: url(/src/img/ubicacion2.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(2){
+    background: url(/src/img/correo.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(3){
+    background: url(/src/img/telefono.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(4){
+    background: url(/src/img/talk.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactLines{
+    position: relative;
+    z-index: 20;
+    top: 0px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.emails{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 179px;
+    /* border: #ADD639 1px solid; */
+    color: #696b67;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+}
+/*------------ fin article ------------*/
+}
+
+@media (min-width: 1280px) and (max-height: 800px){
+    /*------------ article ----------------*/
 #articleIndex{
     position: relative;
     display: block;
@@ -214,3 +1073,442 @@ aside textarea{
     bottom: 32px;
 }
 /*------------ fin article ------------*/
+}
+
+@media (min-width: 1366px) and (max-height: 768px){
+    /*------------ article ----------------*/
+#articleIndex{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border: #3952A5 1px solid; */
+}
+aside{
+    margin-top: 100px;
+    position: relative;
+    display: block;
+    background: #3b3d34;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 1100px;
+    /* border: #ADD639 1px solid; */
+   
+}
+aside h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #ADD639;
+    font-weight: 300;
+}
+aside Input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    border: #ADD639 1px solid;
+    font-size: 16px;
+    padding-left: 20px;
+}
+aside label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    margin-left: 24%;
+    color: #eff0f3;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.contain-buttons{
+    position: relative;
+    margin: auto;
+    /* border: #ADD639 1px solid; */
+    width: 160px;
+    top: 30px;
+}
+button{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #acd639a5;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 0;
+    top: 0px;
+    transition: all ease-in .3s;
+    cursor: pointer;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; */
+    width: 80px;
+    height: 30px;
+    
+}
+.button2{
+
+    top: 0px;
+    line-height: 0;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #bb0b0ba5;
+    color: white;
+}
+.button2:hover{
+    background: red;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+.button:hover{
+    background: green;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+
+aside label:nth-child(11){
+    position: relative;
+    display: block;
+    margin-left: 34.2%;
+    top: 80px;
+}
+aside textarea{
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    width: 30%;
+    height: 200px;
+    margin-top: 80px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.articleFooter{
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.16);
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+.articleFooter ul{
+    width: 450px;
+    /* border: #3952A5 1px solid; */
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.articleFooter li{
+    position: relative;
+    display: inline-block;
+    /* border: #ADD639 1px solid; */
+    margin-left: 30px;
+    padding: 0;
+    text-align: right;
+    color: whitesmoke;
+    width: 170px;
+    height: 45px;
+    line-height: 3;
+    background: url(/src/img/whatsapp-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0 5px;
+}
+
+.articleFooter li:last-child{
+    background: url(/src/img/telefono-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0px 5px;
+}
+.contactIcons{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 19%;
+    height: auto;
+    top: 10px;
+    /* border: #ADD639 1px solid; */
+}
+.contactIcons ul{
+    list-style: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+.contactIcons li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.contactIcons li{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) brightness(200%);
+    background: url(/src/img/ubicacion2.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(2){
+    background: url(/src/img/correo.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(3){
+    background: url(/src/img/telefono.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(4){
+    background: url(/src/img/talk.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactLines{
+    position: relative;
+    z-index: 20;
+    top: 0px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.emails{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 179px;
+    /* border: #ADD639 1px solid; */
+    color: #696b67;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+}
+/*------------ fin article ------------*/
+}
+
+@media (min-width: 1440px) and (max-height: 900px){
+    /*------------ article ----------------*/
+#articleIndex{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border: #3952A5 1px solid; */
+}
+aside{
+    margin-top: 100px;
+    position: relative;
+    display: block;
+    background: #3b3d34;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    height: 1100px;
+    /* border: #ADD639 1px solid; */
+   
+}
+aside h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: #ADD639;
+    font-weight: 300;
+}
+aside Input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    border: #ADD639 1px solid;
+    font-size: 16px;
+    padding-left: 20px;
+}
+aside label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
+    margin-left: 24%;
+    color: #eff0f3;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.contain-buttons{
+    position: relative;
+    margin: auto;
+    /* border: #ADD639 1px solid; */
+    width: 160px;
+    top: 30px;
+}
+button{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #acd639a5;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    line-height: 0;
+    top: 0px;
+    transition: all ease-in .3s;
+    cursor: pointer;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; */
+    width: 80px;
+    height: 30px;
+    
+}
+.button2{
+
+    top: 0px;
+    line-height: 0;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #bb0b0ba5;
+    color: white;
+}
+.button2:hover{
+    background: red;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+.button:hover{
+    background: green;
+    text-shadow: #122153 1px 1px 1px, #122153 -1px -1px 1px;
+}
+
+aside label:nth-child(11){
+    position: relative;
+    display: block;
+    margin-left: 34.2%;
+    top: 80px;
+}
+aside textarea{
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    width: 30%;
+    height: 200px;
+    margin-top: 80px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.articleFooter{
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.16);
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+.articleFooter ul{
+    width: 450px;
+    /* border: #3952A5 1px solid; */
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.articleFooter li{
+    position: relative;
+    display: inline-block;
+    /* border: #ADD639 1px solid; */
+    margin-left: 30px;
+    padding: 0;
+    text-align: right;
+    color: whitesmoke;
+    width: 170px;
+    height: 45px;
+    line-height: 3;
+    background: url(/src/img/whatsapp-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0 5px;
+}
+
+.articleFooter li:last-child{
+    background: url(/src/img/telefono-color.svg) no-repeat;
+    background-size: 30% 90%;
+    background-position: 0px 5px;
+}
+.contactIcons{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 19%;
+    height: auto;
+    top: 10px;
+    /* border: #ADD639 1px solid; */
+}
+.contactIcons ul{
+    list-style: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+.contactIcons li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.contactIcons li{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) brightness(200%);
+    background: url(/src/img/ubicacion2.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(2){
+    background: url(/src/img/correo.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(3){
+    background: url(/src/img/telefono.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactIcons li:nth-child(4){
+    background: url(/src/img/talk.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.contactLines{
+    position: relative;
+    z-index: 20;
+    top: 0px;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.emails{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 179px;
+    /* border: #ADD639 1px solid; */
+    color: #696b67;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+}
+/*------------ fin article ------------*/
+}

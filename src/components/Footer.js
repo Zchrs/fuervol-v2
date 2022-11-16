@@ -14,20 +14,20 @@ const footer = () => {
         <footer className='footer'>
         <hr className='top' />
         <div className='footer_logo'>
-          {/* <img class="footer_logo" src="./assets/img/logo-fundacion.svg" alt="" /> */}
+          
         </div>
         <hr className='vertical' />
-        <div>
+        <div className='footer-link'>
           <h1>Más de nosotros</h1>
           <ul>
-            <li><a href="/">Quiénes somos</a></li>
-            <li><a href="/">Misión</a></li>
-            <li><a href="/">Visión</a></li>
-            <li><a href="/">Donar</a></li>
-            <li><a href="/">Documentación legal (en modificaciones)</a></li>
-            <li><a href="/">Fuervol Shop (Pronto)</a></li>
-            <li><a href="/">Preguntas frecuentes</a></li>
-            <li><a href="/" className='privacy_btn'>Política de privacidad</a></li>
+            <li><Link className='footer-link' to="/">Quiénes somos</Link></li>
+            <li><Link className='footer-link' to="/">Misión</Link></li>
+            <li><Link className='footer-link' to="/">Visión</Link></li>
+            <li><Link className='footer-link' to="/">Donar</Link></li>
+            <li><Link className='footer-link' to="/">Documentación legal</Link></li>
+            <li><Link className='footer-link' to="/">Fuervol Shop (Pronto)</Link></li>
+            <li><Link className='footer-link' to="/">Preguntas frecuentes</Link></li>
+            <li><Link className='footer-link' to="/">Política de privacidad</Link></li>
           </ul>
         </div>
         <hr className='vertical' />
