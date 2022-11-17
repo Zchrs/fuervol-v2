@@ -58,6 +58,7 @@
         background: url(../../img/hamburguesa.svg) no-repeat left;
         background-size: 100% 90%;
         filter:invert(30%);
+        transition: all ease .5s ;
     }
     .btn_menu:hover{
         filter: invert(100%);
@@ -86,7 +87,7 @@
         line-height: 3;
         text-align: center;
         font-weight: 100;
-        font-size: 12px;
+        font-size: 14px;
         width: 100%;
         height: 100%;
     }
@@ -103,17 +104,17 @@
         border-bottom: 1px solid white;
     }
     .submenu{
-        position: absolute;
+        position: relative;
         display: block;
-        width: 170px;
+        width: 50%;
         height: 0px;
-        top: 50px;
+        top: 0px;
         background: #3b3d34f6;
         backdrop-filter: blur(20px);
         overflow: hidden;
         transition: cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
         border-radius: 0px 0px  10px 10px;
-        
+        z-index: 100;
        
     }
     .submenu ul{
@@ -129,7 +130,7 @@
         /* border-bottom: 1px solid beige; */
         margin: 0;
         padding: 0;
-        font-size: 12px;
+        font-size: 14.5px;
         line-height: 3;
         font-weight: 200;
     }
@@ -216,6 +217,7 @@
         background: url(../../img/hamburguesa.svg) no-repeat left;
         background-size: 100% 90%;
         filter:invert(30%);
+        transition: all ease .5s ;
     }
     .btn_menu:hover{
         filter: invert(100%);
@@ -271,7 +273,7 @@
         overflow: hidden;
         transition: cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
         border-radius: 0px 0px  10px 10px;
-        
+        z-index: 100;
        
     }
     .submenu ul{
@@ -373,6 +375,7 @@
         background: url(../../img/hamburguesa.svg) no-repeat left;
         background-size: 100% 90%;
         filter:invert(30%);
+        transition: all ease .5s ;
     }
     .btn_menu:hover{
         filter: invert(100%);
@@ -400,7 +403,7 @@
         line-height: 3;
         text-align: center;
         font-weight: 100;
-        font-size: 12px;
+        font-size: 15px;
         width: 100%;
         height: 100%;
     }
@@ -419,7 +422,7 @@
     .submenu{
         position: absolute;
         display: block;
-        width: 170px;
+        width: 50%;
         height: 0px;
         top: 50px;
         background: #3b3d34f6;
@@ -427,7 +430,7 @@
         overflow: hidden;
         transition: cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
         border-radius: 0px 0px  10px 10px;
-        
+        z-index: 100;
        
     }
     .submenu ul{
@@ -443,7 +446,7 @@
         /* border-bottom: 1px solid beige; */
         margin: 0;
         padding: 0;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 3;
         font-weight: 200;
     }
@@ -532,6 +535,7 @@
         background: url(../../img/hamburguesa.svg) no-repeat left;
         background-size: 100% 90%;
         filter:invert(30%);
+        transition: all ease .5s ;
     }
     .linkNavbar{
         display: block;
@@ -688,6 +692,7 @@
         background: url(../../img/hamburguesa.svg) no-repeat left;
         background-size: 100% 90%;
         filter:invert(30%);
+        transition: all ease .5s ;
     }
     .linkNavbar{
         display: block;
@@ -844,6 +849,7 @@
         background: url(../../img/hamburguesa.svg) no-repeat left;
         background-size: 100% 90%;
         filter:invert(30%);
+        transition: all ease .5s ;
     }
     .linkNavbar{
         display: block;
@@ -1000,6 +1006,7 @@
         background: url(../../img/hamburguesa.svg) no-repeat left;
         background-size: 100% 90%;
         filter:invert(30%);
+        transition: all ease .5s ;
     }
     .linkNavbar{
         display: block;
