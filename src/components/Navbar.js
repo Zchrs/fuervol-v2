@@ -59,16 +59,28 @@ const Navbar = () => {
     }
   
   
-    if(window.innerWidth < 980 && contadorC === 0){
+    if(window.innerWidth < 999 && contadorC === 0){
       window.scrollTo(0, 1000);
       contadorC = 1;
       document.body.style.overflow = 'visible';
       contadorMenu = 0;
     }
-    if(window.innerWidth < 980 && contadorC === 1){
+    if(window.innerWidth < 999 && contadorC === 1){
       document.body.style.overflow = 'visible';
       window.scrollTo(0, 1000);
       contadorMenu = 0;
+      contadorC = 0;
+    }
+
+
+    if(window.innerWidth === 980 && window.innerHeight === 1974 && contadorC === 0){
+      window.scrollTo(0, 700);
+      contadorC = 1;
+      document.body.style.overflow = 'visible';
+    }
+    if(window.innerWidth === 980 && window.innerHeight === 1974 && contadorC === 1){
+      document.body.style.overflow = 'visible';
+      window.scrollTo(0, 700);
       contadorC = 0;
     }
   }
@@ -76,7 +88,7 @@ const Navbar = () => {
   let contadorS = 0;
  const sponsor = () =>{
 
-  if(window.innerWidth > 980){
+  if(window.innerWidth > 999){
     document.body.style.overflow = 'visible';
      window.scrollTo(0, 2000);
   }else{
@@ -85,14 +97,26 @@ const Navbar = () => {
   }
 
 
-  if(window.innerWidth < 980 && contadorS === 0){
+  if(window.innerWidth < 999 && contadorS === 0){
     window.scrollTo(0, 2220);
     contadorS = 1;
     document.body.style.overflow = 'visible';
   }
-  if(window.innerWidth < 980 && contadorS === 1){
+  if(window.innerWidth < 999 && contadorS === 1){
     document.body.style.overflow = 'visible';
     window.scrollTo(0, 2220);
+    contadorS = 0;
+  }
+
+  if(window.innerWidth === 980 && window.innerHeight === 1974 && contadorS === 0){
+    window.scrollTo(0, 2170);
+    contadorS = 1;
+    document.body.style.overflow = 'visible';
+    console.log('escritorio s21')
+  }
+  if(window.innerWidth === 980 && window.innerHeight === 1974 && contadorS === 1){
+    document.body.style.overflow = 'visible';
+    window.scrollTo(0, 2170);
     contadorS = 0;
   }
 }
@@ -128,43 +152,43 @@ const Navbar = () => {
                 </li>
                 <li onClick={top}>
                   <Link
-                    className="linkSubmenu" to="/About-us">
+                    className="linkSubmenu" to="/About-us" onClick={showHideMenu}>
                     Quienes somos
                   </Link>
                 </li>
                 <li onClick={top}>
                   <Link
-                    className="linkSubmenu" to="/Mision">
+                    className="linkSubmenu" to="/Mision" onClick={showHideMenu}>
                     Misión
                   </Link>
                 </li>
                 <li onClick={top}>
                   <Link
-                    className="linkSubmenu" to="/Vision">
+                    className="linkSubmenu" to="/Vision" onClick={showHideMenu}>
                     Visión
                   </Link>
                 </li>
                 <li onClick={top}>
                   <Link
-                    className="linkSubmenu" to="/">
+                    className="linkSubmenu" to="/Projects" onClick={showHideMenu}>
                     Proyectos
                   </Link>
                 </li>
               </ul>
             </div>
           </li>
-          <li onClick={showHideMenu}>
+          <li>
             <Link className="linkNavbar" onClick={contact}>
               Contáctenos
             </Link>
           </li>
-          <li onClick={showHideMenu}>
+          <li >
             <Link className="linkNavbar" onClick={sponsor}>
               Colaboradores
             </Link>
           </li>
           <li onClick={top}>
-            <Link className="linkNavbar">
+            <Link className="linkNavbar" onClick={showHideMenu}>
               Tienda
             </Link>
           </li>

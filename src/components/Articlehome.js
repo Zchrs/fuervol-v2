@@ -22,7 +22,7 @@ const Articlehome = ({title, text, nameButton}) => {
 
         btn_Solution: <Link onClick={top} className='link' to={'/Program'}>Saber más</Link>,
         btn_Donations: <Link onClick={top} className='link' to={'/Donations'}>Ayúdanos</Link>,
-        btn_Volunteers: 'Voluntarios',
+        btn_Volunteers: <Link onClick={top} className='link' to={'/Volunteers'}>Voluntarios</Link>,
     }
 
     return (

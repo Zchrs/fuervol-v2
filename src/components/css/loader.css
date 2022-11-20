@@ -1,0 +1,47 @@
+.preloader{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #3952A5;
+    z-index: 1000;
+    clip-path: circle(92.2% at 34% 65%);
+    
+}
+
+.img{
+    position: absolute;
+    display: block;
+    max-width: 330px;
+    height: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    animation:  2s ease-in .5s infinite reverse both running titileo;
+    background: url(../../img/logo-fundacion.png) no-repeat;
+    background-size: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bars{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 30px;
+    top: 55.5%;
+}
+@keyframes titileo{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

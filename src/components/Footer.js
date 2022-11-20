@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+
 // import imgFB from '../img/facebook_logo.svg';
 // import imgLi from '/src/img/linkedin-logo.svg';
 // import imgIns from '/src/img/instagram_logo.svg';
@@ -7,6 +8,9 @@ import {Link} from 'react-router-dom'
 // import imgFoo from '/src/img/logo-fundacion.svg';
 import './css/footer.css';
 
+  const top = () => {
+    window.scrollTo(0, 0);
+};
 
 const footer = () => {
     return (
@@ -20,14 +24,14 @@ const footer = () => {
         <div className='footer-link'>
           <h1>Más de nosotros</h1>
           <ul>
-            <li><Link className='footer-link' to="/">Quiénes somos</Link></li>
-            <li><Link className='footer-link' to="/">Misión</Link></li>
-            <li><Link className='footer-link' to="/">Visión</Link></li>
-            <li><Link className='footer-link' to="/">Donar</Link></li>
-            <li><Link className='footer-link' to="/">Documentación legal</Link></li>
-            <li><Link className='footer-link' to="/">Fuervol Shop (Pronto)</Link></li>
-            <li><Link className='footer-link' to="/">Preguntas frecuentes</Link></li>
-            <li><Link className='footer-link' to="/">Política de privacidad</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/About-us">Quiénes somos</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/Mision">Misión</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/Vision">Visión</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/Donations">Donar</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/Legal-docs">Documentación legal</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/">Fuervol Shop (Pronto)</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/Faq">Preguntas frecuentes</Link></li>
+            <li onClick={top} ><Link className='footer-link' to="/Privacy-policy">Política de privacidad</Link></li>
           </ul>
         </div>
         <hr className='vertical' />

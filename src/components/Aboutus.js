@@ -3,7 +3,7 @@ import './css/about.css';
 
 const Aboutus = () => {
     return (
-        <div className='sectionIndexWhoare'>
+        <div>
             <div className='img-quienes-somos'>
                  <div className='whoareImg'></div>
                  <h1>Quiénes somos</h1>

@@ -3,25 +3,25 @@
 .sectionIndexWhoare{
     position: relative;
     display: block;
+    margin-left: 0%;
+    top: 0px;
     width: 100%;
-    height: 700px;
+    height: 1100px;
     background: white;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     overflow: hidden;
-    font-family: 'Titillium Web', sans-serif;
-    /* transform: translate(100%); */
-    z-index: 20;
-    /* opacity: 0; */
+    overflow-y: none;
     animation: rightToleft .7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-family: 'Titillium Web', sans-serif;
 }
 .whoareImg{
     display: block;
     position: absolute;
     transform: skewX(10deg);
-    background: url(/src/img/nuestro-equipo.png) no-repeat -120px;
+    background: url(/src/img/nuestro-equipo.png) no-repeat ;
     background-size: 100% 100%;
     
-    width: 190%;
+    width: 112%;
     height: 100%;
     bottom: 0;
     opacity: 0.2;
@@ -30,8 +30,8 @@
 .img-quienes-somos{
     position: absolute;
     display: block;
-    width: 450px;
-    height: 100%;
+    width: 121%;
+    height: 40%;
     background: #3952A5;
     transform: skewX(-10deg) translate(-75px);
     overflow: hidden;
@@ -39,41 +39,41 @@
     left: -20px;
 }
 .sectionIndexWhoare h1{
-    position: relative;
-    display: block;
-    font-weight: 600;
-    font-size: 50px;
-    color: #ADD639;
-    left: 60px;
-
-    padding-top: 100px;
-    transform: skewX(10deg);
-    /* font-family: 'Titillium Web', sans-serif; */
+      position: relative;
+        display: block;
+        font-weight: 700;
+        font-size: 40px;
+        color: #ADD639;
+        left: 80px;
+        padding-top: 100px;
+        transform: skewX(10deg);
 }
 .sectionIndexWhoare h2{
-    position: relative;
-    display: block;
-    width: 350px;
-    left: 95px;
-    /* width: 380px; */
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    /* padding: 10px; */
-    top: 20px;
-    transform: skewX(10deg);
-    text-align: left;
+     position: relative;
+        display: block;
+        width: 350px;
+        left: 110px;
+        /* width: 380px; */
+        font-weight: 600;
+        font-size: 17.5px;
+        text-align: center;
+        color: white;
+        /* padding: 10px; */
+        top: 20px;
+        transform: skewX(10deg);
+        text-align: left;
+    
 }
 .sectionIndexWhoare p{
-    position: relative;
-   /* display: block; */
-   width: 600px;
-    margin: 10%;
-    /* padding: 50px; */
-    left: 450px;
-    font-size: 18px;
-    top: 90px;
+     position: relative;
+       display: block;
+       width: 95%;
+        margin: auto;
+        padding: 4%;
+        left: 0px;
+        font-size: 18px;
+        top: 550px;
+        color: #585858;
     color: #585858;
 }
 /* #sectionIndex2:target{
